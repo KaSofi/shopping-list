@@ -1,0 +1,87 @@
+.app {
+  margin: 20px auto;
+  width: 400px;
+  min-height: 80vh;
+  border: 4px solid #cfe4f9;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+}
+body {
+  background-color: #cfe4f9;
+}
+h1 {
+  color: #517849;
+}
+input {
+  border: 2px dotted green;
+  color: #517849;
+  text-align: center;
+  padding: 14px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  width: 55%;
+}
+input:hover {
+  outline-color: #0d3b04;
+}
+li {
+  list-style: none;
+  color: #0d3b04;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 11px;
+  border: 1px solid green;
+  overflow: hidden;
+  width: 70%;
+  margin: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 33px;
+  font-family: 'Open Sans', sans-serif;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+.addButton {
+  background-color: rgb(16, 148, 189);
+  color: white;
+  font-size: 17px;
+  font-weight: 200;
+  border: none;
+  padding: 15px;
+  width: 63%;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.addButton:hover {
+  background-color: rgb(67, 170, 201);
+  cursor: pointer;
+}
+.deleteButton {
+  background-color: rgb(189, 16, 30);
+  color: white;
+  font-size: 17px;
+  font-weight: 200;
+  border: none;
+  padding: 15px;
+  width: 63%;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.deleteButton:hover {
+  background-color: rgb(192, 58, 69);
+} 
+
+@media all and (max-width: 800px) {
+  .app {
+    max-width: 99%;
+  }
+}
